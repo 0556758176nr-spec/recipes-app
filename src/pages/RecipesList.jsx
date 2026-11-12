@@ -11,7 +11,7 @@ export default function RecipesList() {
     useEffect(() => {
         fetch("https://dummyjson.com/recipes")
             .then((res) => {
-                if (!res.ok) throw new Error("Failed to fetch recipes");
+                if (!res.ok) throw new Error("Failed to fetcgih recipes");
                 return res.json();
             })
             .then((data) => {
