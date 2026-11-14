@@ -2,7 +2,7 @@ import Joi from 'joi';
 import { useId } from 'react';
 import { useForm } from 'react-hook-form';
 import { joiResolver } from '@hookform/resolvers/joi';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router';
 import { login } from '../services/auth';
 
 export const loginSchema = Joi.object({
